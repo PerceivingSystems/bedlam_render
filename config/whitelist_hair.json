@@ -1,0 +1,42 @@
+{
+    "m": [
+        "SMPLX_M_Hair_Center_part_curtains",
+        "SMPLX_M_Hair_Classic_short",
+        "SMPLX_M_Hair_Classic_side_part",
+        "SMPLX_M_Hair_Curly_fringe",
+        "SMPLX_M_Hair_Medium_Afro_a",
+        "SMPLX_M_Hair_Middle_Wavy",
+        "SMPLX_M_Hair_Middle_Wavy_a",
+        "SMPLX_M_Hair_Short_blowback",
+        "SMPLX_M_Hair_Side_Part",
+        "SMPLX_M_Hair_Side_Part_a",
+        "SMPLX_M_Hair_Slick_back_Old_Style",
+        "SMPLX_M_Hair_Slick_back_Old_Style_a",
+        "SMPLX_M_Hair_Slicked_Back",
+        "SMPLX_M_Hair_Spiky_Quiff",
+        "SMPLX_M_Hair_Spiky_Quiff_a",
+        "SMPLX_M_Hair_Sweeping_Bangs",
+        "SMPLX_M_Hair_Sweeping_Bangs_a"
+    ],
+    "f": [
+        "SMPLX_F_Hair_Center_part_curtains",
+        "SMPLX_F_Hair_Classic_bun",
+        "SMPLX_F_Hair_Classic_short",
+        "SMPLX_F_Hair_Curly_fringe",
+        "SMPLX_F_Hair_Ear_length_Bob",
+        "SMPLX_F_Hair_Large_bun",
+        "SMPLX_F_Hair_Middle_Wavy",
+        "SMPLX_F_Hair_Middle_Wavy_a",
+        "SMPLX_F_Hair_Side_Part",
+        "SMPLX_F_Hair_Side_Part_a",
+        "SMPLX_F_Hair_Side_part_wavy",
+        "SMPLX_F_Hair_Sweeping_Bangs",
+        "SMPLX_F_Hair_Sweeping_Bangs_a",
+        "SMPLX_F_Hair_Two_high_space_buns",
+        "SMPLX_F_Hair_Two_low_space_buns",
+        "SMPLX_F_Hair_Wavy_short_Bob"
+    ],
+    "blacklist": [
+        "SMPLX_M_Hair_Medium_Afro"
+    ]
+}
