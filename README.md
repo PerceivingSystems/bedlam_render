@@ -14,6 +14,8 @@ This repository contains the render pipeline tools for [BEDLAM CVPR2023 paper](h
 
 If you are looking for code to train and evaluate the ML models from the paper then please visit this repository: https://github.com/pixelite1201/BEDLAM
 
+If you are looking for clothing processing code then please visit this repository: https://github.com/PerceivingSystems/bedlam_clothing
+
 # Render Pipeline
 
 ## Data preparation
