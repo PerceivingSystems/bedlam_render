@@ -34,6 +34,6 @@ py -3 smplx_anim_to_alembic_batch.py C:\bedlam\animations\gendered_ground_truth 
 ```
 
 # Notes
-+ BEDLAM .npz files use Y-Up format in SMPL-X OpenGL coordinate frame notation. To properly manually import them into Blender with the add-on you need to make sure that `Format:SMPL-X` is selected in the import dialog. The automation script is always using this option while it is running.
++ BEDLAM .npz files use Y-Up format in SMPL-X OpenGL coordinate frame notation. To properly manually import them into Blender with the add-on you need to make sure that `Format:SMPL-X` is selected in the import dialog. Also enable SMPL-X pose correctives by activating `Use keyframed corrective pose weights`. The Alembic conversion automation script ([smplx_anim_to_alembic.py](smplx_anim_to_alembic.py)) is always using these options while it is running.
 + If you want to import AMASS SMPL-X .npz animations with the automation script you need to change [smplx_anim_to_alembic.py](smplx_anim_to_alembic.py) to use `anim_format="AMASS"`
 + If you want to play the 30fps ABC files in Blender then make sure that your Blender framerate was changed to 30fps from the default 24fps before you import the file. We recommend to change to 30fps once and then save as default via `File>Defaults>Save Startup File`.
