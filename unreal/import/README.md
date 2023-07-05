@@ -32,11 +32,19 @@ The various scripts in this folder help with automating BEDLAM related data impo
 + [create_body_materials.py](create_body_materials.py)
 + Use this script to generate required `MaterialInstance` materials for imported BEDLAM body textures
 + Requirements
-    + BEDLAM Unreal Core assets installed under your UE5 install directory
-        + Example: `C:\UE_5.0\Engine\Content\PS\Bedlam\Core`
+    + BEDLAM Unreal Core assets installed under your UE5 install directory. See [Unreal render README](../render/README.md) for instructions.
+    + Imported BEDLAM body textures
+        + Download `bedlam_body_textures_meshcapade.zip` from BEDLAM website and extract to local folder and remove `previews` subfolders
+        + Load Unreal Editor project
+        + Make sure that "Show Engine Content" is activated in Content Browser settings so that you see the `Engine` folder hierarchy
+        + Create `Engine/Content/PS/Meshcapade/SMPL` folder via Content Browser
+        + Import local `MC_textures_skintones` body texture folder via Content Browser to `Engine/Content/PS/Meshcapade/SMPL`
+        + Content Browser>Save All
+
 + Usage
-    + Adjust data paths at top of script
+    + Select all imported body textures under `Engine/Content/PS/Meshcapade/SMPL` in Content Browser (Filter:Texture, CTRL-A)
     + Run script via Execute Python Script
+    + Content Browser>Save All
 
 ## Clothing textures
 + [import_clothing_textures.py](import_clothing_textures.py)

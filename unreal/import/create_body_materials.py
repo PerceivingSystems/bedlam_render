@@ -11,7 +11,7 @@ import time
 import unreal
 
 data_root_unreal = "/Engine/PS/Meshcapade/SMPL"
-master_material_name = f"{data_root_unreal}/M_SMPLX"
+master_material_name = f"/Engine/PS/Bedlam/Core/Materials/M_SMPLX"
 
 def create_material(master_material, texture):
 
