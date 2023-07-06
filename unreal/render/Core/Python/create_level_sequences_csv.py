@@ -27,7 +27,7 @@ hdri_suffix = ""
 
 material_body_root = "/Engine/PS/Meshcapade/SMPL/Materials"
 material_clothing_root = data_root_unreal + "Clothing/Materials"
-texture_body_root = "/Engine/PS/Meshcapade/SMPL/20220207"
+texture_body_root = "/Engine/PS/Meshcapade/SMPL/MC_texture_skintones"
 texture_clothing_overlay_root = data_root_unreal + "Clothing/MaterialsSMPLX/Textures"
 
 material_hidden_name = data_root_unreal + "Core/Materials/M_SMPLX_Hidden"
@@ -477,7 +477,7 @@ def add_level_sequence(name, camera_actor, camera_pose, ground_truth_logger_acto
                 gender = "male"
 
             # Set Soft Object Paths to textures
-            texture_body_path = f"Texture2D'{texture_body_root}/{gender}/{sequence_body.texture_body}.{sequence_body.texture_body}'"
+            texture_body_path = f"Texture2D'{texture_body_root}/{gender}/skin/{sequence_body.texture_body}.{sequence_body.texture_body}'"
             texture_clothing_overlay_path = f"Texture2D'{texture_clothing_overlay_root}/{sequence_body.texture_clothing_overlay}.{sequence_body.texture_clothing_overlay}'"
 
             add_geometry_cache(level_sequence, sequence_body_index, "body", animation_start_frame, animation_end_frame, body_object, sequence_body.x, sequence_body.y, sequence_body.z, sequence_body.yaw, sequence_body.pitch, sequence_body.roll, None, texture_body_path, texture_clothing_overlay_path)
