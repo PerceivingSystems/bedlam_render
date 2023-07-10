@@ -67,3 +67,7 @@ BEDLAM rendering works with vanilla Unreal Editor 5.0.3 release. Unreal source c
 + Click on `[Render (ground truth export)]` to start rendering with automated logging of camera ground truth
     + Details: [render_movie_render_queue.py](Core/Python/render_movie_render_queue.py)
 
+# Notes
++ Hair
+    + We are not allowed to release the used commercial hair assets. Please read [BEDLAM](https://bedlam.is.tuebingen.mpg.de/) paper and also supplementary materials for further details on this topic. We suggest to consider strand based hair grooms as mentioned in the paper. Please understand that we will not be able to provide support for this topic in this repo.
+    + Only the render jobs with the `batch01handhair` name token used the commercial hair assets. You can re-render them without commercial hair by removing the `hair=....` token from the corresponding be_seq.csv files.

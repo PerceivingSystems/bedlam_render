@@ -63,7 +63,12 @@ BEDLAM Unreal render setup utilizes a data-driven design approach where external
 
 # Notes
 + GitHub
-  + We are not accepting unrequested pull requests
+  + Issues
+    + Please check first if your issue was already reported in the issue tracker before opening a new one. Make sure to check both [open](https://github.com/PerceivingSystems/bedlam_render/issues) and also [closed](https://github.com/PerceivingSystems/bedlam_render/issues?q=is%3Aissue+is%3Aclosed) issues.
+    + Use descriptive name for your issue which clearly states the problem
+    + Do not ask several unrelated questions on the same issue
+  + Pull requests
+    + We are not accepting unrequested pull requests
 + Logo: https://github.com/hermanTenuki/ASCII-Generator.site
   + Font: rectangles
 
