@@ -22,6 +22,8 @@ BEDLAM rendering works with vanilla Unreal Editor 5.0.3 release. Unreal source c
   + `UE_5.0\Engine\Content\PS\Bedlam\HDRI\4k`: 4K HDR images
   + `UE_5.0\Engine\Content\PS\Meshcapade\SMPL`: body textures and materials
 
++ See [unreal_editor_assets.md](unreal_editor_assets.md) for asset data filesystem hierarchy details
+
 + Unreal Engine 5.0.3 project with the following active plugins
   + [Python Editor Script Plugin](https://docs.unrealengine.com/5.0/en-US/scripting-the-unreal-editor-using-python/)
   + Editor Scripting Utilities
