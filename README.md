@@ -1,9 +1,9 @@
 ```
- _____ _____ ____  __    _____ _____ 
+ _____ _____ ____  __    _____ _____
 | __  |   __|    \|  |  |  _  |     |
 | __ -|   __|  |  |  |__|     | | | |
 |_____|_____|____/|_____|__|__|_|_|_|
- _____  _____  _____  ____   _____  _____ 
+ _____  _____  _____  ____   _____  _____
 | __  ||   __||   | ||    \ |   __|| __  |
 |    -||   __|| | | ||  |  ||   __||    -|
 |__|__||_____||_|___||____/ |_____||__|__|
@@ -12,9 +12,13 @@
 # BEDLAM Render Tools
 This repository contains the render pipeline tools for [BEDLAM CVPR2023 paper](https://bedlam.is.tue.mpg.de). It includes automation scripts for SMPL-X data preparation in Blender, data import into Unreal Engine 5 and Unreal rendering.
 
-If you are looking for code to train and evaluate the ML models from the paper then please visit this repository: https://github.com/pixelite1201/BEDLAM
+Related code repositories:
++ https://github.com/pixelite1201/BEDLAM
+  + Code to train and evaluate the ML models from the paper
++ https://github.com/PerceivingSystems/bedlam_clothing
+  + Clothing processing code
 
-If you are looking for clothing processing code then please visit this repository: https://github.com/PerceivingSystems/bedlam_clothing
+If you are interested in our follow-up paper `BEDLAM2.0: Synthetic Humans and Cameras in Motion` (NeurIPS 2025) then please visit the [BEDLAM2.0 project website](https://bedlam2.is.tue.mpg.de/) for paper, code and data access details.
 
 # Render Pipeline
 
@@ -55,7 +59,7 @@ BEDLAM Unreal render setup utilizes a data-driven design approach where external
     + Data preparation stage will likely also work under Linux or macOS thanks to Blender but we have not tested this and are not providing support for this option
     + Windows WSL2 subsystem for Linux with Ubuntu 22.04
     + [Python for Windows (3.10.2 or later)](https://www.python.org/downloads/windows/)
-+ Recommended PC Hardware: 
++ Recommended PC Hardware:
   + CPU: Modern multi-core CPU with high clock speed (Intel i9-12900K)
   + GPU: NVIDIA RTX3090 or higher
   + Memory: 128GB or more
@@ -76,7 +80,7 @@ BEDLAM Unreal render setup utilizes a data-driven design approach where external
 ```
 @inproceedings{Black_CVPR_2023,
   title = {{BEDLAM}: A Synthetic Dataset of Bodies Exhibiting Detailed Lifelike Animated Motion},
-  author = {Black, Michael J. and Patel, Priyanka and Tesch, Joachim and Yang, Jinlong}, 
+  author = {Black, Michael J. and Patel, Priyanka and Tesch, Joachim and Yang, Jinlong},
   booktitle = {Proceedings IEEE/CVF Conf.~on Computer Vision and Pattern Recognition (CVPR)},
   pages = {8726-8737},
   month = jun,
