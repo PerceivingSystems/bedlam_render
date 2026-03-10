@@ -51,7 +51,7 @@ Citation:
 ```
 
 # Commercial licensing opportunities
-For commercial use of the Data & Software, please send emails to ps-license@tue.mpg.de
+For commercial use of the Data & Software, please send emails to smpl@max-planck-innovation.de
 
 ---
 
