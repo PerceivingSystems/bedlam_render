@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the BEDLAM paper below."
+type: software
+title: "BEDLAM Render Tools"
+abstract: "Render pipeline tools used to generate the BEDLAM synthetic dataset."
+authors:
+  - family-names: "Tesch"
+    given-names: "Joachim"
+    affiliation: "Max Planck Institute for Intelligent Systems, Tübingen"
+    orcid: "https://orcid.org/0009-0009-2110-4953"
+repository-code: "https://github.com/PerceivingSystems/bedlam_render"
+url: "https://bedlam.is.tue.mpg.de/"
+license-url: "https://bedlam.is.tuebingen.mpg.de/license.html"
+version: "1.0.0"
+date-released: "2026-04-20"
+preferred-citation:
+  type: conference-paper
+  title: "BEDLAM: A Synthetic Dataset of Bodies Exhibiting Detailed Lifelike Animated Motion"
+  authors:
+    - family-names: "Black"
+      given-names: "Michael J."
+    - family-names: "Patel"
+      given-names: "Priyanka"
+    - family-names: "Tesch"
+      given-names: "Joachim"
+    - family-names: "Yang"
+      given-names: "Jinlong"
+  collection-title: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  year: 2023
+  url: "https://arxiv.org/abs/2306.16940"
