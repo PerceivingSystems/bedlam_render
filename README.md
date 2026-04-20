@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19665907.svg)](https://doi.org/10.5281/zenodo.19665907)
+
 ```
  _____ _____ ____  __    _____ _____
 | __  |   __|    \|  |  |  _  |     |
