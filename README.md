@@ -1,4 +1,6 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19665907.svg)](https://doi.org/10.5281/zenodo.19665907)
+[![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-5.0-202020.svg)](https://www.unrealengine.com)
+[![arXiv](https://img.shields.io/badge/arXiv-2306.16940-b31b1b.svg)](https://arxiv.org/abs/2306.16940)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.19665907-blue)](https://doi.org/10.5281/zenodo.19665907)
 
 ```
  _____ _____ ____  __    _____ _____
